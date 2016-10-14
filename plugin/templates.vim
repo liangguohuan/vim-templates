@@ -57,6 +57,6 @@ function! s:isnewfile()
 		\ && ! &modified && ( g:templates_empty_files || ! filereadable(bufname('')) )
 endfunction
 
-command -nargs=1 New new | set ft=<args>
+command! -nargs=1 New new | set ft=<args>
 
 " vim:foldmethod=marker
