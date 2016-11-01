@@ -9,5 +9,5 @@ if __name__ == '__main__':
     pass
 
 
-# vim: set fdm=indent ts=4 sw=4 sts=4 expandtab
+# vim: fdm=indent ts=4 sw=4 sts=4 expandtab
 # cursor: 5 del
